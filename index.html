@@ -1,150 +1,363 @@
 <!doctype html>
 <html lang="en-gb">
+
 <head>
-<meta charset="UTF-8">
-<title>laser hair removal</title>
-<meta name="description" content=" laser hair removal in Peterborough">
-  <link rel="stylesheet" href="laserremoval.css" />
-  <meta name="keywords" content="laser-hair-removal, hair-removal, peterborough">
-  <meta name="author" content="Rebecca Gray">
-  <meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="description" content=" laser hair removal in Peterborough">
+	<meta name="keywords" content="laser-hair-removal, hair-removal, peterborough">
+	<meta name="author" content="Rebecca Gray">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="laserremoval.css" />
+	<link rel="stylesheet" href="write.js" />
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+	<title>laser hair removal</title>
+
 </head>
 
 <body>
-<!-- Main Container -->
-<div class="container"> 
+	<!---nav-->
+	<header>
+		<div id="navigation">
+			<div style="background-color: #027db9" class="container-full">
+				<div class="container">
+					<nav class="navbar navbar-expand-md">
+						<a class="navbar-brand" href="#">
+							<img src="img/logo.gif" width="130" alt="skin solutions" class="center">
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+							data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarCollapse">
+							<ul class="navbar-nav mr-auto">
+								<div class="navbar">
 
-
-  <!-- Navigation -->
-  <header> <a href="">
-      <img src="images/logo.gif" title="logo" alt="skin solutions peterborough" width="210" height="130"/>      
-      </a>
-      <nav>
-        <ul>
-          <li><a href="#logoarea">home</a></li>
-          <li><a href="#service">service</a></li>
-          <li> <a href="#contact">contact</a></li>
-        </ul>
-      </nav>
-  </header>
-
-
-  <!-- Logo Section -->
-  <section id="logoarea" section class="logoarea" id="logoarea">
-      <div class="slideshow-container">
-          <div class="mySlides fade">
-            <img src="images/laser-googles.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/legs.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/underarm.jpg" style="width:100%">
-          </div>
-          <script>
-            var slideIndex = 0;
-            showSlides();
-    
-            function showSlides() {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-              }
-              slideIndex++;
-              if (slideIndex > slides.length) {
-                slideIndex = 1
-              }
-              slides[slideIndex - 1].style.display = "block";
-              setTimeout(showSlides, 5000);
-            }
-          </script>
-    <p class="tagline">We offer non-surgical treatments in laser hair removal using the latest technology to permanently reduce body and facial hair.</p>
-  </div>
-  </section>
+									<li class="nav-item active">
+										<a class="nav-link" href="index.html">home</a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="#service" title="service" class="scroll">service</a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="#pricelist" title="price list" class="scroll">price
+											list</a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="#social" title="contact" class="scroll">contact</a>
+									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="#service" title="service"
+											class="scroll">treatments</a>
+									</li>
+								</div>
 
 
 
-  <!-- Service Section -->
-  <section class="service" id="service">
-    <div class="service">
-      <container>
-        <div class="serviceheader">
-      <h1>our services</h1>
-      <p>We offer non-surgical treatments in laser hair removal using the latest technology to permanently reduce body and facial hair.</p>
-      </div>
-      <div class="thumbnail">
-        <h3>IPL Hair & Tattoo Removal</h3>
-        <p>Uncover skin you can be proud of with the safest and most effective treatment for unwanted hair & tattoos.</p>
-      </div>
-      <div class="thumbnail">
-        <h3>Acne Treatment with AFT</h3>
-        <p>Effective and comfortable, AFT pulsed light works quickly and thoroughly to kill acne bacteria. AFT pulsed light counters acne better than any conventional method.</p>
-      </div>
-      <div class="thumbnail">
-        <h3>Laser Skin Resurfacing</h3>
-        <p>Laser resurfacing is a non-surgical cosmetic treatment to reduce facial wrinkles, uneven skin tone, scars or sun damage and create a more rejuvenated and youthful appearance.</p>
-      </div>
-    </container>
-    </div>
-  </section>
+							</ul>
+
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<!--img-->
+	<img src="img/beachbody.jpg" class="img-fluid" alt="beach ready">
+
+	<!-- Service Section -->
+	<div id="service" class="container-full">
+		<div class="container">
+			<h1>Our Services</h1>
+			<p>We offer non-surgical treatments in laser hair removal using the latest technology to permanently reduce
+				body and facial hair.</p>
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Laser Skin Resurfacing</h3>
+					<p>Laser resurfacing is a non-surgical cosmetic treatment to reduce facial wrinkles, uneven skin
+						tone, scars
+						or sun damage and create a more rejuvenated and youthful appearance.</p>
+				</div>
+				<div class="col-sm-4">
+					<h3>IPL Hair & Tattoo Removal</h3>
+					<p>Uncover skin you can be proud of with the safest and most effective treatment for unwanted hair &
+						tattoos.</p>
+				</div>
+				<div class="col-sm-4">
+					<h3>Acne Treatment with AFT</h3>
+					<p>Effective and comfortable, AFT pulsed light works quickly and thoroughly to kill acne bacteria.
+						AFT
+						pulsed light counters acne better than any conventional method.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
 
 
 
-  <!-- Callout Service Section -->
-<div class="callout-section" style="background-color:#ccc;">
-    <div class="overlay">
-      <div class="container">
-        <div class="row">	
-          <div class="col-md-12">	
-              <h1>Want to say hi or find out more?</h1>
-               <p>Get in touch today for your free consultation</p>
-              <div class="btn-area">
-              <a href="#"  class="callout-btn1">Price List</a>
-              <a href="#"  class="callout-btn2">Get in Touch</a>
-            </div>
-          </div>	
-        </div>			
-      </div> 
-    </div>	
-  </div>
+	<!-- Callout Service Section -->
+	<div class="container-full">
+		<div id="callout" class="callout" data-ride="callout">
+			<div class="callout-section" style="background-color:#ccc;">
+				<div class="overlay">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<h1>Want to say hi or find out more?</h1>
+								<p>Get in touch today for your free consultation</p>
+								<div class="btn-area">
+									<a href="#pricelist" class="callout-btn1">Price List</a>
+									<a href="#social" class="callout-btn2">Get in Touch</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Price List-->
+	<div id="pricelist" class="container-fluid">
+		<br>
+		<table id="pricelist">
+			<tbody>
+				<h5>Laser hair removal</h5>
+				<tr>
+					<th>Treatment (cost per session)</th>
+					<th>Cost</th>
+				</tr>
+				<tr>
+					<td>Abdomen (mid-line)</td>
+					<td>£80</td>
+				</tr>
+				<tr>
+					<td>Abdomen (extended)</td>
+					<td>£140</td>
+				</tr>
+				<tr>
+					<td>Arms Full (front)</td>
+					<td>£210</td>
+				</tr>
+				<tr>
+					<td>Arms Lower (front)</td>
+					<td>£125</td>
+				</tr>
+				<tr>
+					<td>Back - Full</td>
+					<td>£400</td>
+				</tr>
+				<tr>
+					<td>Back - Lower</td>
+					<td>£250</td>
+				</tr>
+				<tr>
+					<td>Back - Upper</td>
+					<td>£250</td>
+				</tr>
+				<tr>
+					<td>Bikini line (mini)</td>
+					<td>£70</td>
+				</tr>
+				<tr>
+					<td>Bikini line (standard)</td>
+					<td>£120</td>
+				</tr>
+				<tr>
+					<td>Bikini line (extended)</td>
+					<td>£150</td>
+				</tr>
+				<tr>
+					<td>Peri-anal</td>
+					<td>£80</td>
+				</tr>
+				<tr>
+					<td>Buttocks</td>
+					<td>£180</td>
+				</tr>
+				<tr>
+					<td>Cheeks / sideburns</td>
+					<td>£80</td>
+				</tr>
+				<tr>
+					<td>Chest</td>
+					<td>£150</td>
+				</tr>
+				<tr>
+					<td>Chin</td>
+					<td>£50</td>
+				</tr>
+				<tr>
+					<td>Chin &amp; jawline</td>
+					<td>£140</td>
+				</tr>
+				<tr>
+					<td>Ears</td>
+					<td>£50</td>
+				</tr>
+				<tr>
+					<td>Forehead</td>
+					<td>£80</td>
+				</tr>
+				<tr>
+					<td>Full face (incl. forehead)</td>
+					<td>£250</td>
+				</tr>
+				<tr>
+					<td>Hands or Feet</td>
+					<td>£100</td>
+				</tr>
+				<tr>
+					<td>Jawline</td>
+					<td>£100</td>
+				</tr>
+				<tr>
+					<td>Legs - full</td>
+					<td>£425</td>
+				</tr>
+				<tr>
+					<td>Legs - full &amp; bikini (standard)</td>
+					<td>£495</td>
+				</tr>
+				<tr>
+					<td>Legs - lower</td>
+					<td>£250</td>
+				</tr>
+				<tr>
+					<td>Legs - upper</td>
+					<td>£300</td>
+				</tr>
+				<tr>
+					<td>Legs - upper &amp; bikini (standard)</td>
+					<td>£400</td>
+				</tr>
+				<tr>
+					<td>Lip &amp; chin</td>
+					<td>£80</td>
+				</tr>
+				<tr>
+					<td>Lip, chin and jawline</td>
+					<td>£180</td>
+				</tr>
+				<tr>
+					<td>Lip upper</td>
+					<td>£50</td>
+				</tr>
+				<tr>
+					<td>Naval</td>
+					<td>£50</td>
+				</tr>
+				<tr>
+					<td>Neck (front or back)</td>
+					<td>£100</td>
+				</tr>
+				<tr>
+					<td>Nipple area</td>
+					<td>£60</td>
+				</tr>
+				<tr>
+					<td>Temples (both)</td>
+					<td>£80</td>
+				</tr>
+				<tr>
+					<td>Underarms</td>
+					<td>£75</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+	</div>
+
+
+	<!-- More Info Section -->
+	<footer>
+		<div class="footer_column">
+			<h3>ABOUT</h3>
+			<p>Skin Solutions Peterborough is committed to providing you with the best skin and
+				body treatments in a
+				safe,
+				friendly and professional enviorment. We use the latest and safest technology
+				and techniques to remove
+				unwanted hair and tattoos. Medically approved to provide all treatments.</p>
+		</div>
+		<div class="footer_column">
+			<h3>LOCATION</h3>
+			<p>​Located near Peterborough city center our purpose built premises on Ledbury Road
+				offers a safe and clean
+				environment with onsite car parking faciliates and complimentary refreshments.
+			</p>
+			<!--<a href="https://goo.gl/maps/k8oa2oScs3H2"><img src="img/googlemaps.jpg" alt="find us on google maps"
+					height="60" width="60"></a>
+			<a href="tel:07473 354 844"><img src="img/black phone.gif" alt="call us" height="60" width="60"></a>
+			-->
+		</div>
+	</footer>
+
+
+	<!-- Social -->
+	<div id="social" class="container-fluid">
+		<div class="container">
+			<div class="content text-center">
+				<!--Facebook-->
+				<a href="#" class="fa fa-facebook"></a>
+				<!--Pinterest-->
+				<a href="#" class="fa fa-pinterest"></a>
+				<!--Instagram-->
+				<a href="#" class="fa fa-instagram"></a>
+				<!--Twitter-->
+				<a href="#" class="fa fa-twitter"></a>
+				<!-- Snapchat -->
+				<a href="#" class="fa fa-snapchat-ghost"></a>
+				<!-- Youtube -->
+				<a href="#" class="fa fa-youtube"></a>
+				<!--Linkedin-->
+				<a href="#" class="fa fa-linkedin"></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer Section -->
+
+	<section class="footer_banner" id="contact">
+		<h2 class="hidden">Footer Banner Section </h2>
+		<!--<div class="button">subscribe</div>-->
+		<br>
+	</section>
+	<!-- Copyrights Section -->
+	<div class="copyright">&copy; - 2019 <strg></strg>
+	</div>
+	</div>
+	<!-- Main Container Ends -->
+
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+		</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+		</script>
+	<script>
+		window.jQuery || document.write(
+			'<script src="https://getbootstrap.com/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
+	</script>
+	<script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous">
+		</script>
 
 
 
-  <!-- More Info Section -->
-  <footer>
-    <div class="footer_column">
-      <h3>ABOUT</h3>
-      <p>Skin Solutions Peterborough is committed to providing you with the best skin and body treatments in a safe, friendly and professional enviorment. We use the latest and safest technology and techniques to remove unwanted hair and tattoos. Medically approved to provide all treatments.</p>
-    </div>
-    <div class="footer_column">
-      <h3>LOCATION</h3>
-      <p>​Located near Peterborough city center our purpose built premises on Ledbury Road offers a safe and clean environment with onsite car parking faciliates and complimentary refreshments.</p>
-
-        <a href="https://goo.gl/maps/k8oa2oScs3H2"><img src="images/googlemaps.jpg" alt="find us on google maps" height="60" width="60"></a>  
-        <a href="tel:07473 354 844"><img src="images/black phone.gif" alt="call us" height="60" width="60"></a>
-
-    </div>
-  </footer>
-
-
-
-  <!-- Footer Section -->
-  <section class="footer_banner" id="contact">
-    <h2 class="hidden">Footer Banner Section </h2>
-    <p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>
-    <div class="button">subscribe</div>
-  </section>
-  <!-- Copyrights Section -->
-  <div class="copyright">&copy; - 2019 <strg></strg></div>
-</div>
-<!-- Main Container Ends -->
 </body>
-</html>
 
-
-
-
-
-</body>
 </html>
